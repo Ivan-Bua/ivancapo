@@ -1,0 +1,27 @@
+Los códigos de respuesta HTTP son códigos numéricos estándar que se utilizan para indicar el resultado de una solicitud HTTP realizada por un cliente a un servidor. Estos códigos se dividen en cinco categorías principales, cada una con su rango numérico:
+
+1xx - Respuestas informativas: Estos códigos son informativos y no indican un éxito o error en la solicitud.
+100 - Continue: El servidor ha recibido los encabezados de solicitud y el cliente debe continuar con la solicitud.
+101 - Switching Protocols: El servidor acepta el cambio propuesto por el cliente en el protocolo.
+2xx - Respuestas exitosas: Indican que la solicitud fue recibida, comprendida y aceptada correctamente.
+
+200 - OK: Solicitud exitosa.
+201 - Created: La solicitud ha sido completada y se ha creado un nuevo recurso.
+204 - No Content: La solicitud se completó correctamente, pero no hay contenido para devolver.
+
+3xx - Redirecciones: Indican que se necesita realizar una acción adicional para completar la solicitud.
+301 - Moved Permanently: El recurso solicitado ha sido movido permanentemente a una nueva URL.
+304 - Not Modified: El recurso no ha sido modificado desde la última solicitud.
+
+4xx - Errores del cliente: Indican que hubo un error en la solicitud realizada por el cliente.
+400 - Bad Request: El servidor no pudo entender la solicitud debido a una sintaxis incorrecta.
+403 - Forbidden: El servidor entiende la solicitud, pero se niega a responder.
+404 - Not Found: El recurso solicitado no se encuentra en el servidor.
+
+5xx - Errores del servidor: Indican que hubo un error en el servidor al intentar procesar la solicitud.
+500 - Internal Server Error: Error genérico en el servidor.
+502 - Bad Gateway: El servidor actuó como un proxy o gateway y recibió una respuesta no válida del servidor ascendente.
+503 - Service Unavailable: El servidor no está listo para manejar la solicitud.
+
+Estos códigos son estándar y proporcionan información rápida sobre el estado de una solicitud HTTP, lo que ayuda a los desarrolladores y sistemas a entender y manejar las respuestas de forma adecuada.
+
