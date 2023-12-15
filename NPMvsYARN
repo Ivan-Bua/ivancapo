@@ -1,0 +1,20 @@
+NPM (Node Package Manager) es el administrador de paquetes predeterminado para Node.js. Se utiliza para instalar, compartir y gestionar dependencias 
+de paquetes en proyectos de Node.js. Algunas características clave de NPM son:
+
+Instalación de paquetes: Permite instalar paquetes de Node.js a nivel global o local en un proyecto.
+
+Gestión de dependencias: Permite gestionar las dependencias de un proyecto a través de un archivo package.json, donde se especifican los paquetes requeridos y sus versiones.
+
+Publicación de paquetes: Facilita la publicación de paquetes en el registro público de NPM, permitiendo a otros desarrolladores utilizar esos paquetes en sus propios proyectos.
+
+Scripts personalizados: Permite definir scripts personalizados en el archivo package.json para automatizar tareas comunes.
+Por otro lado, Yarn es otra herramienta de gestión de paquetes para JavaScript. Fue creado por Facebook para abordar algunas limitaciones percibidas en NPM. Algunas características de Yarn incluyen:
+
+Rendimiento: Yarn se diseñó para ser más rápido que NPM en términos de velocidad de descarga e instalación de paquetes.
+
+Reproducibilidad: Garantiza la reproducibilidad de las instalaciones de paquetes mediante un archivo yarn.lock, asegurando que las versiones instaladas sean las mismas en diferentes entornos.
+
+Seguridad: Introduce herramientas para garantizar la seguridad al descargar e instalar paquetes.
+
+Compatibilidad: Yarn se diseñó para ser compatible con el ecosistema de paquetes de NPM, lo que significa que puede utilizar paquetes de NPM sin problemas.
+La elección entre NPM y Yarn a menudo depende de las necesidades del proyecto y las preferencias del equipo de desarrollo. Algunos equipos prefieren Yarn debido a su rendimiento y capacidades de seguridad, mientras que otros siguen utilizando NPM debido a su estrecha integración con Node.js y su amplia adopción en la comunidad de JavaScript. En términos de funcionalidad, ambos son administradores de paquetes robustos y pueden lograr resultados similares en la gestión de dependencias de proyectos.
